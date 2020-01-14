@@ -32,7 +32,7 @@ namespace JournalHospOut
         OleDbCommand cmd = new OleDbCommand();
         OleDbDataReader dr;
         DataTable dtForCombo = new DataTable();
-        DataTable dtForReport = new DataTable();
+        
         List<mkb10> mkbList = new List<mkb10>();
 
         string conPath = ConfigurationManager.AppSettings.Get("conPath");
