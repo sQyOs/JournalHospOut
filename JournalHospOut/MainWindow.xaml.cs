@@ -143,7 +143,7 @@ namespace JournalHospOut
                 cn.Close();
                 MessageBox.Show("Error" + ex);
             }
-            tbMkb.Focus();
+            rbMale.Focus();
         }
         private void loadMKBData()
         {
@@ -506,7 +506,7 @@ namespace JournalHospOut
         private void tbNom_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
-                tbMkb.Focus();
+                rbMale.Focus();
         }
 
         private void tbMkb_KeyUp(object sender, KeyEventArgs e)
@@ -518,13 +518,13 @@ namespace JournalHospOut
         private void tbKd_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
-                rbMale.Focus();
+                btSaveData.Focus();
         }
 
         private void tbAge_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
-                btSaveData.Focus();
+                tbMkb.Focus();
         }
 
         private void rbMale_Checked(object sender, RoutedEventArgs e)

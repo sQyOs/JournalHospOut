@@ -30,15 +30,15 @@
         <Grid Margin="167,0,0,10" Height="218" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="184">
             <Label x:Name="label" Content="Номер" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Height="25" Padding="1"/>
             <TextBox x:Name="tbNom" KeyUp="tbNom_KeyUp" HorizontalAlignment="Left" Height="25" Margin="64,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16" Padding="1,-1,1,1" PreviewTextInput="tbNom_PreviewTextInput"/>
-            <Label x:Name="label2" Content="МКБ" HorizontalAlignment="Left" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="16" Height="25" Padding="1"/>
-            <TextBox x:Name="tbMkb" KeyUp="tbMkb_KeyUp" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" Text="{Binding FilterString, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120" Margin="64,30,0,0" FontSize="16" Padding="1,-1,1,1"/>
-            <Label x:Name="label3" Content="к/д" HorizontalAlignment="Left" Margin="0,60,0,0" VerticalAlignment="Top" FontSize="16" Height="25" Padding="1"/>
-            <TextBox x:Name="tbKd" KeyUp="tbKd_KeyUp" HorizontalAlignment="Left" Height="25" Margin="64,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16" Padding="1,-1,1,1" PreviewTextInput="tbKd_PreviewTextInput"/>
-            <Label x:Name="label4" Content="Пол" HorizontalAlignment="Left" Margin="0,90,0,0" VerticalAlignment="Top" FontSize="16" Height="25" Padding="1"/>
-            <RadioButton x:Name="rbMale" Checked="rbMale_Checked" Content="М" HorizontalAlignment="Left" Margin="79,91,0,0" VerticalAlignment="Top" FontSize="16"/>
-            <RadioButton x:Name="rbFemale" Checked="rbFemale_Checked" Content="Ж" HorizontalAlignment="Left" Margin="137,91,0,0" VerticalAlignment="Top" FontSize="16"/>
-            <Label x:Name="label5" Content="Возраст" HorizontalAlignment="Left" Margin="0,115,0,0" VerticalAlignment="Top" FontSize="16" Height="25" Padding="1"/>
-            <TextBox x:Name="tbAge" KeyUp="tbAge_KeyUp" HorizontalAlignment="Left" Height="25" Margin="64,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16" Padding="1,-1,1,1" PreviewTextInput="tbAge_PreviewTextInput"/>
+            <Label x:Name="label2" Content="МКБ" HorizontalAlignment="Left" Margin="0,85,0,0" VerticalAlignment="Top" FontSize="16" Height="25" Padding="1"/>
+            <TextBox x:Name="tbMkb" KeyUp="tbMkb_KeyUp" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" Text="{Binding FilterString, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120" Margin="64,85,0,0" FontSize="16" Padding="1,-1,1,1"/>
+            <Label x:Name="label3" Content="к/д" HorizontalAlignment="Left" Margin="0,115,0,0" VerticalAlignment="Top" FontSize="16" Height="25" Padding="1"/>
+            <TextBox x:Name="tbKd" KeyUp="tbKd_KeyUp" HorizontalAlignment="Left" Height="25" Margin="64,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16" Padding="1,-1,1,1" PreviewTextInput="tbKd_PreviewTextInput"/>
+            <Label x:Name="label4" Content="Пол" HorizontalAlignment="Left" Margin="0,25,0,0" VerticalAlignment="Top" FontSize="16" Height="25" Padding="1"/>
+            <RadioButton x:Name="rbMale" Checked="rbMale_Checked" Content="М" HorizontalAlignment="Left" Margin="83,30,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <RadioButton x:Name="rbFemale" Checked="rbFemale_Checked" Content="Ж" HorizontalAlignment="Left" Margin="141,30,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label x:Name="label5" Content="Возраст" HorizontalAlignment="Left" Margin="0,55,0,0" VerticalAlignment="Top" FontSize="16" Height="25" Padding="1"/>
+            <TextBox x:Name="tbAge" KeyUp="tbAge_KeyUp" HorizontalAlignment="Left" Height="25" Margin="64,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16" Padding="1,-1,1,1" PreviewTextInput="tbAge_PreviewTextInput"/>
             <Button x:Name="btSaveData" Content="Сохранить" HorizontalAlignment="Left" Margin="99,157,0,0" VerticalAlignment="Top" Width="75" Click="btSaveData_Click"/>
             <Button x:Name="btUpdateData" Content="Изменить" HorizontalAlignment="Left" Margin="10,157,0,0" VerticalAlignment="Top" Width="75" Click="btUpdateData_Click"/>
             <Button x:Name="btClear" Content="Очистить поля" HorizontalAlignment="Left" Margin="82,192,0,0" VerticalAlignment="Top" Width="92" Click="button_Copy1_Click"/>
